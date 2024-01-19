@@ -183,15 +183,15 @@ MonoBehaviour:
   acceleration: 100
   deceleration: 100
   airTurn: 1
-  airAcceleration: 25
+  airAcceleration: 50
   maxAirSpeed: 10
-  airDeceleration: 50
+  airDeceleration: 25
   jumpForce: 10
   jumpExtensionFrames: 15
   doubleJump: 2
   defaultDoubleJumpReset: 1
   doubleJumpForce: 7.5
-  doubleJumpExtensionFrames: 15
+  doubleJumpExtensionFrames: 5
   dash: 3
   dashDirections: 0000000001000000040000000500000002000000060000000700000003000000
   dashOnlyInFacingDirection: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
   defaultDashReset: 1
   intangibleDash: 0
   dashSpeed: 30
-  dashFrameDuration: 5
+  dashFrameDuration: 10
   dashCooldown: 0.1
   dashSpeedResetToZero: 1
   dashSpeedResetToMaxSpeed: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   startLookingRight: 1
   fastFall: 1
   fastFallSpeed: 30
-  weight: 1
+  weight: 3
 --- !u!50 &8293722366789145875
 Rigidbody2D:
   serializedVersion: 4

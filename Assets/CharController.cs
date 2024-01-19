@@ -110,12 +110,6 @@ public class CharController : MonoBehaviour
 	}
 	void Update()
     {
-        //DEBUG
-
-
-		Debug.Log(rigidBody.velocity.x);
-
-		//
 		if (!dashing)
 		{
 			if (grounded)
